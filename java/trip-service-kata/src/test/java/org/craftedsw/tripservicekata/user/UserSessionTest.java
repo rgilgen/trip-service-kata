@@ -20,7 +20,6 @@ class UserSessionTest {
         UserSession userSession = mock(UserSession.class);
         User expectedUser = new User();
         when(userSession.getLoggedUser()).thenReturn(expectedUser);
-        when(userSession.getLoggedUser()).thenReturn(expectedUser);
 
         User actualUser = userSession.getLoggedUser();
 
